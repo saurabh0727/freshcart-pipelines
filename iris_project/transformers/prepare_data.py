@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 
 
-def transform(df, test_size=0.3):
+def transform(df, test_size=0.2):
     train_idx, test_idx = train_test_split(
         df.index,
         test_size=test_size,
